@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-hw-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "DmytroBzs <godimmortalis@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint": "^9.18.0",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "pino-http": "^10.4.0"
+  }
+}
