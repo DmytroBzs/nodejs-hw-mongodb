@@ -18,13 +18,13 @@ requestBody:
             example: Teacher01
           password:
             type: string
-            example: Pa$$w0rd
+            example: YourSecurePassword123
       examples:
         /auth/register:
           value:
             email: teacher01@mail.com
             name: Teacher01
-            password: Pa$$w0rd
+            password: YourSecurePassword123
 responses:
   '201':
     description: 'Created a user'

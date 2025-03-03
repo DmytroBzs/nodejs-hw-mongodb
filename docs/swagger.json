@@ -542,7 +542,7 @@
                   },
                   "password": {
                     "type": "string",
-                    "example": "Pa$$w0rd"
+                    "example": "YourSecurePassword123"
                   }
                 }
               },
@@ -551,7 +551,7 @@
                   "value": {
                     "email": "teacher01@mail.com",
                     "name": "Teacher01",
-                    "password": "Pa$$w0rd"
+                    "password": "YourSecurePassword123"
                   }
                 }
               }
@@ -619,7 +619,7 @@
                     "type": "string",
                     "format": "password",
                     "description": "User password.",
-                    "example": "SecretPassword"
+                    "example": "YourSecurePassword123"
                   }
                 }
               }
@@ -875,7 +875,7 @@
                     "type": "string",
                     "format": "password",
                     "description": "New user password.",
-                    "example": "NewPa$$word"
+                    "example": "YourSecurePassword123"
                   }
                 }
               }
@@ -1165,7 +1165,7 @@
           "password": {
             "description": "User password",
             "type": "string",
-            "example": "SuperPassword"
+            "example": "YourSecurePassword123"
           }
         }
       }
